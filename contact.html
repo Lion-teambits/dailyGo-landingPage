@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyGo TEAM</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <nav class="sticky">
+        <div class="wrapper links">
+            <a href="/"><img src="img/logo.svg" alt="logo" class="logo visible" height="48"></a>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/team.html">Meet the team</a></li>
+                <li><a href="/contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="hamburger__line"></div>
+                <div class="hamburger__line"></div>
+                <div class="hamburger__line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="wrapper">
+            <section class="contact-wrapper">
+                <header>
+                    <h1>Let’s <br> work <br> together</h1>
+                </header>
+                <form action="https://formspree.io/f/moqyjzqk" method="POST" class="contact-form">
+                    <div class="contact-form__group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="contact-form__group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                    <div class="contact-form__group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="4" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </section>
+
+            <!-- or divider -->
+            <div class="divider">
+                <span>or</span>
+            </div>
+            
+            <section class="direct-contact">
+                <h3>You can reach us directly </h3>
+                <div class="direct-contacts">
+                    <a href="https://www.linkedin.com/in/dhananya-kiatsongsak/" target="_blank" class="linkedin__link">
+                        <img src="img/team/dada.png" alt="linkedin">
+                        <div class="link">
+                            <img src="img/linkedin.svg" alt="linkedin">
+                            Dhananya Kiatsongsak
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/renasakata/" target="_blank" class="linkedin__link">
+                        <img src="img/team/rena.png" alt="linkedin">
+                        <div class="link">
+                            <img src="img/linkedin.svg" alt="linkedin">
+                            Rena Sakata
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/JL7/" target="_blank" class="linkedin__link">
+                        <img src="img/team/jay.png" alt="linkedin">
+                        <div class="link">
+                            <img src="img/linkedin.svg" alt="linkedin">
+                            Jungho Lee
+                        </div>
+                    </a>
+                    <!-- ava -->
+                    <a href="https://www.linkedin.com/in/thanaratk/" target="_blank" class="linkedin__link">
+                        <img src="img/team/ava.png" alt="linkedin">
+                        <div class="link">
+                            <img src="img/linkedin.svg" alt="linkedin">
+                            Thanarat (Ava) Krisanayuth
+                        </div>
+                    </a>
+
+                    <!-- flavia -->
+                    <a href="https://www.linkedin.com/in/flachonso/" target="_blank" class="linkedin__link">
+                        <img src="img/team/flavia.png" alt="linkedin">
+                        <div class="link">
+                            <img src="img/linkedin.svg" alt="linkedin">
+                            Flavia Chonso
+                        </div>
+                    </a>
+
+                    <!-- kevin -->
+                    <a href="https://www.linkedin.com/in/khristop/" target="_blank" class="linkedin__link">
+                        <img src="img/team/kevin.png" alt="linkedin">
+                        <div class="link">
+                            <img src="img/linkedin.svg" alt="linkedin">
+                            Kevin Garcia
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+            <footer>
+                <p>
+                    Powered by<br>LION
+                </p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
